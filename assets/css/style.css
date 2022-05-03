@@ -1200,7 +1200,7 @@ a:active {
 }
 
 .header.header-small .contact .top-bar-right {
-	padding: 0 0 0 8.5%;
+	padding: 	0 0 0 8.5%;
 }
 
 
@@ -2635,8 +2635,8 @@ ul.icon-direction li {
 
 /* box-contact */
 .box-contact {
-	width           : 25%;
-	padding         : 62px 2px 44px 44px;
+	width           : 35%;
+	padding         : 62px 2px 50px 44px;
 	background-color: #142643;
 }
 
@@ -2740,7 +2740,7 @@ ul.icon-direction li {
 
 .box-services ul.one-half.first {
 	padding-top : 30px;
-	padding-left: 2px;
+	padding-left: 20px;
 }
 
 .box-services ul.one-half.first li {
