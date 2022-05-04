@@ -1147,6 +1147,7 @@ a:active {
 
 .contact .button-header {
 	padding-left: 8.6%;
+	padding-right: 8.6%;
 }
 
 /* header-banner */
@@ -1859,7 +1860,7 @@ a.megamenu-box {
 
 .button-header .themesflat-button.btn-header {
 	padding      : 16px 35px 17px 35px;
-	border-radius: 10px;
+	border-radius: 19px;
 }
 
 /* top-bar */
@@ -4159,6 +4160,9 @@ ul.list-hours li .opening-hours {
     color: #fff;
 }
 
+#heading{
+	color: #fff;
+}
 .page-content .box-wrap h2 {
 	font-family: var(--jost-font), sans-serif;
 	font-size  : 20px;
