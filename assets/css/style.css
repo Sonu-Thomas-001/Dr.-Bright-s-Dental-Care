@@ -1153,7 +1153,7 @@ a:active {
 #header-baner {
 	height             : 420px;
 	position           : relative;
-	background-image   : url(../image/common/header-baner.jpg);
+	background-image   : url(../image/common/header-baner.webp);
 	background-position: center center;
 	background-repeat  : no-repeat;
 	background-size    : cover;
