@@ -1226,11 +1226,17 @@
 	.box-list-footer .box-list {
 		padding-bottom: 15px;
 	}
+	#site-header .contact {
+		width: 30%;
+	}
 }
 
 @media only screen and (max-width: 480px) {
 	.form-contact-us .box-submit {
 		padding-top: 20px;
+	}
+	#site-header .contact {
+		width: 30%;
 	}
 }
 
@@ -1259,5 +1265,8 @@
 	.bottom a, 
 	.bottom p {
 		font-size: 14px !important;
+	}
+	#site-header .contact {
+		width: 30%;
 	}
 }
