@@ -31,7 +31,7 @@
 	}
 
 	#site-header .contact {
-		width: 20%;
+		width: 30%;
 	}
 
 	.nav-wrap {
@@ -85,7 +85,7 @@
 }
 
 
-@media only screen and (max-width: 1366px) {
+@media only screen and (max-width: 1533px) {
 	#mainnav .menu li {
 		padding-right: 5px !important;
 	}
@@ -637,7 +637,7 @@
 	}
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 783px) {
 	.page-content .box-wrap .title a,
 	.page-content .box-wrap .title a:hover {
 		font-size: 20px;
@@ -809,7 +809,7 @@
 	}
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 783px) {
 	form .row-info,
 	.box-gender,
 	.box-ft {
