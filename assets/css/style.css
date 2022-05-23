@@ -2777,10 +2777,10 @@ ul.icon-direction li {
 .copyright1 {
 	text-align    : center;
 	color         : #ffffff;
-	padding-left  : 300px;
-	letter-spacing: 01px;
-	line-height   : 5px;
-	width         : 70%;
+	padding-left  : 3px;
+	letter-spacing: 2px;
+	line-height   : 75px;
+	width         : 60%;
 	
 	
 }
@@ -2789,7 +2789,7 @@ ul.icon-direction li {
 
 .list-icon-bottom {
 	width       : 20%;
-	line-height : 150px;
+	line-height : 200px;
 	padding-left: 9px;
 }
 

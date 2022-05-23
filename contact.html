@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dr. Bright's Dental Care – MULTI SPECIALITY DENTAL CLINIC</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="stylesheet" href="assets/css/color/color-1.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
@@ -13,6 +14,7 @@
     <link rel="stylesheet" href="assets/animation/animate.css">
     <!--logo-->
     <link rel="icon" href="assets\image\icon.png" sizes="32x32" />
+    
 </head>
 
 <body class="header_sticky">
@@ -230,26 +232,26 @@
                                                             Have Questions?<br> Get in Touch!
                                                         </div>
                                                         <div class="themesflat-spacer clearfix" data-desktop="18" data-mobile="18" data-smobile="18"></div>
-                                                        <form class="content-form wow fadeInUp" id="contactform" action="./contact/contact-process.php" method="post" accept-charset="utf-8">
+                                                        <form class="content-form wow fadeInUp" id="submit-form" action="" accept-charset="utf-8">
         
                                                             <div class="row">
                                                                 <div class="col">
-                                                                    <input tabindex="1" id="name" name="name" value="" class="input-contact" type="text" placeholder="Full Name" required="">
+                                                                    <input tabindex="1" id="name" name="Full Name" value="" class="input-contact" type="text" placeholder="Full Name" required="">
                                                                 </div>
                                                                 <div class="col">
-                                                                    <input tabindex="2" id="phone" name="phone" value="" class="input-contact" type="text" placeholder="Phone Number" required="">
+                                                                    <input tabindex="2" id="phone" name="Phone Number" value="" class="input-contact" type="text" placeholder="Phone Number" required="">
                                                                 </div>
                                                             </div>
         
                                                             <div class="row">
                                                                 <div class="col">
-                                                                    <input type="email" tabindex="3" id="email" name="email" value="" class="input-contact" placeholder="Email Address" required="">
+                                                                    <input type="email" tabindex="3" id="email" name="Email" value="" class="input-contact" placeholder="Email Address" required="">
                                                                 </div>
                                                                
                                                             </div>
                                                             <div class="row">
                                                                 <div class="col">
-                                                                    <select  type="text"  id="subject" name="subject" value="" class="form-control" placeholder="Subject" required="">
+                                                                    <select  type="text"  id="subject" name="Doctor" value="" class="form-control" placeholder="Subject" required="">
                                                                               <option value="" >Select Doctor</option>
                                                                               <option value="Dr. Thomas Brightson Tom">Dr. Thomas Brightson Tom</option>
                                                                               <option value="Dr. M K Sunil">Dr. M K Sunil</option>
@@ -259,15 +261,15 @@
                                                             </div>
                                                             <div class="row">
                                                                 <div class="col">
-                                                                    <input type="date" name="date" class="form-control" id="date" placeholder="date-month-year" required>
+                                                                    <input type="date" name="Date" class="form-control" id="date" placeholder="date-month-year" required>
                                                                   </div>
                                                                   <div class="col">
-                                                                    <input type="time" class="form-control" name="time" id="time" placeholder="Time" required>
+                                                                    <input type="time" class="form-control" name="Time" id="time" placeholder="Time" required>
                                                                   </div>
                                                             </div>
         
                                                             <div>
-                                                                <textarea name="message" tabindex="5" class="form-control" id="exampleFormControlTextarea2" placeholder="Your Message"  maxlength="1000"></textarea>
+                                                                <textarea name="Message" tabindex="5" class="form-control" id="exampleFormControlTextarea2" placeholder="Your Message"  maxlength="1000"></textarea>
                                                             </div>
         
                                                             <div class="row">
@@ -279,7 +281,7 @@
                                                                 </div>
                                                                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
                                                                     <div class="box-submit">
-                                                                        <button name="submit" id="submit" type="submit" class="themesflat-button bg-accent btn-submit" role="button"><span>Send</span></button>
+                                                                        <button value="submit" id="submit" type="submit" class="themesflat-button bg-accent btn-submit" role="button"><span>Send</span></button>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -469,11 +471,9 @@
                                 </a>
                             </div>
                             <h3 class="copyright">
-                                © CopyRight @ Dr. Bright's Dental Care 2022 | all rights reserved
+                                © CopyRight @ <a href="index.html"> Dr. Bright's Dental Care</a> 2022 | all rights reserved <br> Designed by <a href="https://sonu-thomas-001.github.io/Sonu-Thomas-Static-Website/">  Sonu Thomas</a>
                             </h3>
-                            <h3 class="copyright1">
-                                Designed by <a href="https://sonu-thomas-001.github.io/Sonu-Thomas-Static-Website/">  Sonu Thomas</a>
-                              </h3>
+                            
                               <ul class="list-icon-bottom">
                                 <li class="bottom-icon-style"><a href="404 - 2.html" title=""><i class="fab fa-facebook-f"></i></a></li>
                                 <li class="bottom-icon-style "><a href="404 - 2.html" title=""><i class="fab fa-twitter"></i></a></li>
@@ -495,6 +495,7 @@
         </div>
         <!--#page-->
     </div>
+    
     <!--#wrapper-->
     <!-- Javascript -->
     <script type="text/javascript" src="javascript/jquery.min.js"></script>
@@ -505,6 +506,26 @@
     <script src="assets/animation/wow.min.js"></script>
     <script src="javascript/animation.js"></script>
     <script type="text/javascript" src="javascript/main.js"></script>
+    <script>
+        $("#submit-form").submit((e)=>{
+            e.preventDefault()
+            $.ajax({
+                url:"https://script.google.com/macros/s/AKfycbzxp-jvu6dEcKQ9UyiWaZJw_iFdOPhtlkas8Gn1SDSa7b289-WZyMxkoq9TvhgalyBSRQ/exec",
+                data:$("#submit-form").serialize(),
+                method:"post",
+                success:function (response){
+                    alert("Appointment Booked successfully")
+                    window.location.reload()
+                    //window.location.href="https://google.com"
+                },
+                error:function (err){
+                    alert("Something Error")
+    
+                }
+            })
+        })
+    </script>
+    
 </body>
 
 </html>
