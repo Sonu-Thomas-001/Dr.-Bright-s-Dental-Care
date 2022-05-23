@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dr. Bright's Dental Care – MULTI SPECIALITY DENTAL CLINIC</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="stylesheet" href="assets/css/color/color-1.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="revolution/css/layers.css">
@@ -859,7 +860,7 @@
                                 </div>
                                 <div class="form-contact">
                                     <div class="themesflat-spacer clearfix" data-desktop="74" data-mobile="74" data-smobile="0"></div>
-                                    <form  id="subscribe-form" action="#" method="GET" accept-charset="utf-8" class="form-submit contact-form wpcf7-form">
+                                    <form  id="submit-email-form" action="" accept-charset="utf-8" class="form-submit contact-form wpcf7-form">
                                         <div class="form-group">
                                             <input type="email" name="email" value="" class="email" placeholder="Email Address" required>
                                             <button type="submit" id="submit" name="submit" class="themesflat-button bg-color-2" role="button">SUBSCRIBE</button>
@@ -1018,6 +1019,25 @@
     <script src="owlcarousel/owl.carousel.min.js"></script>
     <script src="owlcarousel/carousel.js"></script>
     <script type="text/javascript" src="javascript/main.js"></script>
+    <script>
+        $("#submit-email-form").submit((e) => {
+            e.preventDefault()
+            $.ajax({
+                url: "https://script.google.com/macros/s/AKfycbwqLEZNVxt2KhkDMTFi0iZjJFx1zi1-N8eQzdvSDSsmnf2ITG1KCCTSavY1Gx5HqN_G/exec",
+                data: $("#submit-email-form").serialize(),
+                method: "post",
+                success: function (response) {
+                    alert("Subscribed Us successfully")
+                    window.location.reload()
+                    //window.location.href="https://google.com"
+                },
+                error: function (err) {
+                    alert("Something Error")
+
+                }
+            })
+        })
+    </script>
 </body>
 
 </html>
