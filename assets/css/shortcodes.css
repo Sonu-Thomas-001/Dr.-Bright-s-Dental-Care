@@ -54,15 +54,15 @@
     width            : 60px;
     height           : 60px;
     content          : "";
-    -webkit-animation: preloader-wave 1.6s linear infinite;
-    animation        : preloader-wave 1.6s linear infinite;
+    -webkit-animation: preloader-wave 1.3s linear infinite;
+    animation        : preloader-wave 1.3s linear infinite;
     border-radius    : 50%;
     background       : var(--primary-color);
 }
 
 #loading-overlay .loader:after {
-    -webkit-animation-delay: -.8s;
-    animation-delay        : -.8s;
+    -webkit-animation-delay: -.3s;
+    animation-delay        : -.3s;
 }
 
 @-webkit-keyframes preloader-wave {
