@@ -2767,6 +2767,7 @@ ul.icon-direction li {
 }
 
 .copyright {
+	font-weight: bolder;
 	text-align    : center;
 	color         : #ffffff;
 	padding-left  : 3px;
@@ -2774,16 +2775,7 @@ ul.icon-direction li {
 	line-height   : 75px;
 	width         : 60%;
 }
-.copyright1 {
-	text-align    : center;
-	color         : #ffffff;
-	padding-left  : 3px;
-	letter-spacing: 2px;
-	line-height   : 75px;
-	width         : 60%;
-	
-	
-}
+
 
 
 
@@ -2799,7 +2791,7 @@ ul.icon-direction li {
 }
 
 .copyright a:hover {
-	color: var(--primary-color);
+	color: #33b9cb;
 }
 
 .copyright1 a,
