@@ -2758,6 +2758,7 @@ ul.icon-direction li {
 
 .footer-bottom {
 	background-color: #1B2F4D;
+	
 }
 
 .logo-bottom {
@@ -2774,6 +2775,7 @@ ul.icon-direction li {
 	letter-spacing: 2px;
 	line-height   : 75px;
 	width         : 60%;
+	padding-bottom: 50px;
 }
 
 
