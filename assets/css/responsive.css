@@ -728,6 +728,12 @@
 		width: 100% !important;
 	}
 
+	
+	.map iframe {
+		
+		height: 450px;
+	}
+
 	.featured-doctor,
 	.box-content-doctor {
 		width: 50% !important;
